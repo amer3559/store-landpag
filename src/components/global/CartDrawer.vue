@@ -1,6 +1,6 @@
 <template>
   <div class="drawer">
-    <v-navigation-drawer v-model="drawer" location="left">
+    <v-navigation-drawer location="right" temporary v-model="drawer">
       <v-list :items="items"></v-list>
     </v-navigation-drawer>
   </div>

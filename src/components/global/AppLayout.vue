@@ -1,8 +1,8 @@
 <template>
   <div class="layout">
     <v-layout>
-      <AppNav />
       <CartDrawer />
+      <AppNav />
       <v-main>
         <slot> </slot>
       </v-main>
