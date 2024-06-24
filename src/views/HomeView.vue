@@ -1,16 +1,14 @@
 <template>
   <div class="home">
-    <h1>this is home-page</h1>
-    <v-icon icon="mdi-home" />
-    <v-icon>mdi-home</v-icon>
+    <UpperBanner />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
+import UpperBanner from "@/components/home_page/UpperBanner.vue";
 
 export default {
   name: "HomeView",
-  components: {},
+  components: { UpperBanner },
 };
 </script>
